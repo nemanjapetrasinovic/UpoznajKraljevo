@@ -1,0 +1,105 @@
+{
+  "project_info": {
+    "project_number": "94643730871",
+    "firebase_url": "https://vodizkrozkraljevo.firebaseio.com",
+    "project_id": "vodizkrozkraljevo",
+    "storage_bucket": "vodizkrozkraljevo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:94643730871:android:c38c4007c17bb1bd",
+        "android_client_info": {
+          "package_name": "com.example.nemanja.vodickrozkraljevo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "94643730871-vof20ktkbi6kjcu1no5jt66g1tt5qfve.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.nemanja.vodickrozkraljevo",
+            "certificate_hash": "d813a8afa88231a7ed67f4b5ddba403a7805d935"
+          }
+        },
+        {
+          "client_id": "94643730871-d0qbo6fdderjbkoo3jt921qm6pbu0u9i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDrtdQ0WZ5TZ5DNkW2UHNAZ-Lu9oselJ7A"
+        },
+        {
+          "current_key": "AIzaSyDuCp7W_1LFIL2xLtK29xeqZ7zb8SREJxM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "94643730871-d0qbo6fdderjbkoo3jt921qm6pbu0u9i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:94643730871:android:6a7d6f58d1b583ec",
+        "android_client_info": {
+          "package_name": "com.example.nemanja.upoznajkraljevo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "94643730871-gis3pn8riqjfjg27p5ns6bqgbbituf9n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.nemanja.upoznajkraljevo",
+            "certificate_hash": "d813a8afa88231a7ed67f4b5ddba403a7805d935"
+          }
+        },
+        {
+          "client_id": "94643730871-d0qbo6fdderjbkoo3jt921qm6pbu0u9i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDrtdQ0WZ5TZ5DNkW2UHNAZ-Lu9oselJ7A"
+        },
+        {
+          "current_key": "AIzaSyDuCp7W_1LFIL2xLtK29xeqZ7zb8SREJxM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "94643730871-d0qbo6fdderjbkoo3jt921qm6pbu0u9i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

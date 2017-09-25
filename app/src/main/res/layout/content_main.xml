@@ -1,0 +1,682 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.nemanja.upoznajkraljevo.MainActivity"
+    tools:showIn="@layout/app_bar_main"
+    tools:layout_editor_absoluteY="81dp"
+    tools:layout_editor_absoluteX="0dp">
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:paddingLeft="10pt"
+        android:paddingRight="10pt"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/galerija_marzik"
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/layout_border"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/textView16"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.3"
+                            android:text="1"
+                            android:textColor="@color/colorAccent"
+                            android:textSize="18pt" />
+
+                        <TextView
+                            android:id="@+id/textView15"
+                            android:layout_width="0dip"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_weight="1.7"
+                            android:text="Galerija Maržik"
+                            android:textSize="12pt" />
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/imageView5"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:adjustViewBounds="true"
+                        android:scaleType="fitCenter"
+                        android:background="@drawable/galerija_marzik" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/hram_svetog_save"
+                    android:layout_width="match_parent"
+                    android:layout_height="500dp"
+
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/layout_border"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/textView17"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.3"
+                            android:text="2"
+                            android:textColor="@color/colorAccent"
+                            android:textSize="18pt" />
+
+                        <TextView
+                            android:id="@+id/textView18"
+                            android:layout_width="0dip"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_weight="1.7"
+                            android:text="Hram Svetog Save"
+                            android:textSize="12pt" />
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/imageView6"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:adjustViewBounds="true"
+                        android:scaleType="fitCenter"
+                        android:background="@drawable/hram_ss" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/isposnica_svetog_save"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/layout_border"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/textView19"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.3"
+                            android:text="3"
+                            android:textColor="@color/colorAccent"
+                            android:textSize="18pt" />
+
+                        <TextView
+                            android:id="@+id/textView20"
+                            android:layout_width="0dip"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_weight="1.7"
+                            android:text="Isposnica Svetog Save"
+                            android:textSize="12pt" />
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/imageView7"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:adjustViewBounds="true"
+                        android:scaleType="fitCenter"
+                        app:srcCompat="@drawable/isposnica_ss" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/kraljevacko_pozoriste"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/layout_border"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/textView21"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.3"
+                            android:text="4"
+                            android:textColor="@color/colorAccent"
+                            android:textSize="18pt" />
+
+                        <TextView
+                            android:id="@+id/textView22"
+                            android:layout_width="0dip"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_weight="1.7"
+                            android:text="Kraljevačko pozorište"
+                            android:textSize="12pt" />
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/imageView8"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:adjustViewBounds="true"
+                        android:scaleType="fitCenter"
+                        app:srcCompat="@drawable/pozoriste" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/maglic"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/layout_border"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/textView23"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.3"
+                            android:text="5"
+                            android:textColor="@color/colorAccent"
+                            android:textSize="18pt" />
+
+                        <TextView
+                            android:id="@+id/textView24"
+                            android:layout_width="0dip"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_weight="1.7"
+                            android:text="Maglič"
+                            android:textSize="12pt" />
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/imageView9"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:adjustViewBounds="true"
+                        android:scaleType="fitCenter"
+                        app:srcCompat="@drawable/maglic" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/manastir_studenica"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/layout_border"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/textView25"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.3"
+                            android:text="6"
+                            android:textColor="@color/colorAccent"
+                            android:textSize="18pt" />
+
+                        <TextView
+                            android:id="@+id/textView26"
+                            android:layout_width="0dip"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_weight="1.7"
+                            android:text="Manastir Studenica"
+                            android:textSize="12pt" />
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/imageView10"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:adjustViewBounds="true"
+                        android:scaleType="fitCenter"
+                        app:srcCompat="@drawable/manastir_studenica" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/narodna_biblioteka"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/layout_border"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/textView27"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.3"
+                            android:text="7"
+                            android:textColor="@color/colorAccent"
+                            android:textSize="18pt" />
+
+                        <TextView
+                            android:id="@+id/textView28"
+                            android:layout_width="0dip"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_weight="1.7"
+                            android:text="Narodna biblioteka"
+                            android:textSize="12pt" />
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/imageView11"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:adjustViewBounds="true"
+                        android:scaleType="fitCenter"
+                        app:srcCompat="@drawable/biblioteka_1" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/narodni_muzej"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/layout_border"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/textView29"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.3"
+                            android:text="8"
+                            android:textColor="@color/colorAccent"
+                            android:textSize="18pt" />
+
+                        <TextView
+                            android:id="@+id/textView30"
+                            android:layout_width="0dip"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_weight="1.7"
+                            android:text="Narodni muzej u Kraljevu"
+                            android:textSize="12pt" />
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/imageView12"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:adjustViewBounds="true"
+                        android:scaleType="fitCenter"
+                        app:srcCompat="@drawable/muzej" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/saborna_crkva_svete_trojice"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/layout_border"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/textView31"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.3"
+                            android:text="9"
+                            android:textColor="@color/colorAccent"
+                            android:textSize="18pt" />
+
+                        <TextView
+                            android:id="@+id/textView32"
+                            android:layout_width="0dip"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_weight="1.7"
+                            android:text="Saborna crkva Svete Trojice u Kraljevu"
+                            android:textSize="12pt" />
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/imageView13"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:adjustViewBounds="true"
+                        android:scaleType="fitCenter"
+                        app:srcCompat="@drawable/saborna" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/spomen_park_kraljevo"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/layout_border"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/textView33"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.3"
+                            android:text="10"
+                            android:textColor="@color/colorAccent"
+                            android:textSize="18pt" />
+
+                        <TextView
+                            android:id="@+id/textView34"
+                            android:layout_width="0dip"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="right"
+                            android:layout_weight="1.7"
+                            android:text="Spomen park Kraljevo"
+                            android:textSize="12pt" />
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/imageView14"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:adjustViewBounds="true"
+                        android:scaleType="fitCenter"
+                        app:srcCompat="@drawable/spark" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/spomenik_ibarskim_junacima"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/layout_border"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/textView35"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.3"
+                            android:text="11"
+                            android:textColor="@color/colorAccent"
+                            android:textSize="18pt" />
+
+                        <TextView
+                            android:id="@+id/textView36"
+                            android:layout_width="0dip"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_weight="1.7"
+                            android:text="Spomenik ibarskim junacima"
+                            android:textSize="12pt" />
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/imageView15"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:adjustViewBounds="true"
+                        android:scaleType="fitCenter"
+                        app:srcCompat="@drawable/ibarski_2" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/spomenik_srpskom_vojniku1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/layout_border"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/textView37"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.3"
+                            android:text="12"
+                            android:textColor="@color/colorAccent"
+                            android:textSize="18pt" />
+
+                        <TextView
+                            android:id="@+id/textView38"
+                            android:layout_width="0dip"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_weight="1.7"
+                            android:text="Spomenik srpskom vojniku"
+                            android:textSize="12pt" />
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/imageView16"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:adjustViewBounds="true"
+                        android:scaleType="fitCenter"
+                        app:srcCompat="@drawable/ssv" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/sportski_objekti_kraljevo"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/layout_border"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/textView39"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.3"
+                            android:text="13"
+                            android:textColor="@color/colorAccent"
+                            android:textSize="18pt" />
+
+                        <TextView
+                            android:id="@+id/textView40"
+                            android:layout_width="0dip"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_weight="1.7"
+                            android:text="Sportski objekti Kraljevo"
+                            android:textSize="12pt" />
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/imageView17"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:adjustViewBounds="true"
+                        android:scaleType="fitCenter"
+                        app:srcCompat="@drawable/so" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/zica"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/layout_border"
+                    android:orientation="vertical"
+                    tools:layout_editor_absoluteX="8dp"
+                    tools:layout_editor_absoluteY="17dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/textView41"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.3"
+                            android:text="14"
+                            android:textColor="@color/colorAccent"
+                            android:textSize="18pt" />
+
+                        <TextView
+                            android:id="@+id/textView42"
+                            android:layout_width="0dip"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_weight="1.7"
+                            android:text="Žiča"
+                            android:textSize="12pt" />
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/imageView18"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:adjustViewBounds="true"
+                        android:scaleType="fitCenter"
+                        app:srcCompat="@drawable/zica" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/zupa"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/layout_border"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/textView43"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.3"
+                            android:text="15"
+                            android:textColor="@color/colorAccent"
+                            android:textSize="18pt" />
+
+                        <TextView
+                            android:id="@+id/textView44"
+                            android:layout_width="0dip"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_weight="1.7"
+                            android:text="Župa sv. Mikaela Arkanđela"
+                            android:textSize="12pt" />
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/imageView19"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:adjustViewBounds="true"
+                        android:scaleType="fitCenter"
+                        app:srcCompat="@drawable/zupa" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

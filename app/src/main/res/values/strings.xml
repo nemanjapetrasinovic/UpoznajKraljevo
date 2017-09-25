@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">UpoznajKraljevo</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_scrolling">ScrollingActivity</string>
+
+    <string name="title_activity_rang_list">RangList</string>
+    <string name="title_activity_maps2">Map</string>
+
+    <string name="intro">Aplikacije upoznaj Kraljevo je aplikacija namenjena za upoznavanje grada Kraljeva. Cilj aplikacije je da pronađete mesta
+    koja želite da obiđete. Na glavnoj strani aplikacije pronaći ćete listu mesta koja želite da obiđete, a klikom na neko mesto dobićete
+    informacije o tom mestu kao i putanju do željene destinacije. Klikom na dugme započni kviz pokrećete kviz. Odgovaranjem na pitanja
+        osvajate poene i učestvujete u igri za medalju poznavaoca Kraljeva.</string>
+</resources>
